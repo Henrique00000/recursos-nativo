@@ -9,12 +9,22 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~48.0.11",
-    "expo-device": "^5.2.1",
+    "@expo/webpack-config": "^0.17.0",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/stack": "^6.3.17",
+    "expo": "^46.0.21",
+    "expo-battery": "~6.3.0",
+    "expo-contacts": "~10.3.0",
+    "expo-device": "~4.3.0",
+    "expo-notifications": "~0.16.1",
+    "expo-screen-orientation": "~4.3.0",
     "expo-status-bar": "~1.4.4",
     "npm": "^9.6.5",
-    "react": "18.2.0",
-    "react-native": "0.71.7"
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.9",
+    "react-native-paper": "^5.9.1",
+    "react-native-web": "~0.18.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
