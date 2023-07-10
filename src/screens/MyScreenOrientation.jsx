@@ -102,7 +102,7 @@ function MyScreenOrientation() {
                 <View>
                     <Button title='UNKNOWN' onPress={() => defaultOrientation('UNKNOWN')} />
                 </View>
-                </View>
+                
             <Footer text='Sair' />
         </View>
         </ScrollView >
